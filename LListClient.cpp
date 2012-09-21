@@ -54,11 +54,12 @@ int main() {
     cout << "The element is: " << L.pop() << endl;
     cout << "List now contains: " << L << endl << endl;
 
-    pos = rand() % L.getSize();
-    cout << "Removing element from pos " <<  pos 
-         << " of the list using pop(" << pos << ")" << endl; 
-    cout << "The element is: " << L.pop(pos) << endl;
-    cout << "List now contains: " << L << endl << endl;
+    // Error del profe! No descomente
+    // pos = rand() % L.getSize();
+    // cout << "Removing element from pos " <<  pos 
+    //     << " of the list using pop(" << pos << ")" << endl; 
+    // cout << "The element is: " << L.pop(pos) << endl;
+    // cout << "List now contains: " << L << endl << endl;
 
     ************************************************************/
 
